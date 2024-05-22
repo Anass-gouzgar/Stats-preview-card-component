@@ -15,14 +15,14 @@ const index = () => {
         <Image
           src={dkpImg}
           alt="desktop"
-          className="hidden md:block object-cover absolute inset-0 opacity-40"
+          className="hidden md:block object-cover absolute inset-0 opacity-20"
         />
       </div>
       {/* sec section */}
 
       <div className="md:w-1/2 md:flex md:flex-col md:justify-center h-full md:p-6 ">
         <div className="flex flex-col justify-center items-center text-center gap-y-3 pt-6 md:text-start md:p-3 md:mb-6">
-          <h1 className="text-3xl text-White font-semibold">
+          <h1 className="text-3xl text-White font-semibold pr-20">
             {" "}
             Get <span className="text-Softviolet">insights</span> that help your
             business grow.
